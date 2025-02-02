@@ -1,0 +1,15 @@
+name: FrSound
+version: 1.0
+main: ru.Fronzter.FrSound
+author: Fronzter
+description: Выбор звука удара, прикольная штука
+api-version: 1.16
+commands:
+  frsound:
+    description: Открывает гуишку для выбора звуков
+    usage: /frsound
+    permission: frsound.use
+permissions:
+  frsound.use:
+    description: Позволяет игроку использовать команду /frsound
+    default: op
